@@ -1,0 +1,18 @@
+var dataElements = [
+  { name: 'Fire', filename: 'fire_00' },
+  { name: 'Magma', filename: 'magma_00' },
+  { name: 'Water', filename: 'water_00' },
+  { name: 'Ice', filename: 'ice_00' },
+  { name: 'Earth', filename: 'earth_00' },
+  { name: 'Metal', filename: 'metal_00' },
+  { name: 'Crystal', filename: 'crystal_00' },
+  { name: 'Air', filename: 'air_00' },
+  { name: 'Electricity', filename: 'electricity_00' },
+  { name: 'Natural', filename: 'natural_00' },
+  { name: 'Artificial', filename: 'artificial_00' },
+  { name: 'Gravity', filename: 'gravity_00' },
+  { name: 'Psychic', filename: 'psyhich_00' },
+  { name: 'Strength', filename: 'strength_00' },
+  { name: 'Dark', filename: 'dark_00' },
+  { name: 'Light', filename: 'light_00' },
+];

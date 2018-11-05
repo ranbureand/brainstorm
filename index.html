@@ -1,0 +1,42 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Brainstorm</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="styles/css/main.css">
+</head>
+
+<body>
+
+  <script src="scripts/js/vue.js"></script>
+
+  <div id="app">
+    <div class="ingredients-canvas">
+      <ul class="ingredients">
+        <li
+          class="ingredient"
+          v-for="(item, index) in combo"
+          @click="replaceIngredient(index)">
+          <img
+            class="image"
+            v-if="item.filename"
+            v-bind:src="'media/images/' + ingredients[index] + '/' + item.filename + '.jpg'"
+            >
+          <div class="label">{{ item.name }}</div>
+        </li>
+      </ul>
+    </div>
+
+    <a href="#" @click.prevent="brainstorm">Brainstorm</a>
+  </div>
+
+  <script src="scripts/js/main-min.js"></script>
+
+</body>
+
+</html>
