@@ -25,7 +25,9 @@
           <img
             class="image"
             v-if="item.filename"
+            v-bind:alt="item.name"
             v-bind:src="'media/images/' + ingredients[index] + '/' + item.filename + '.jpg'"
+            v-bind:title="item.name"
             >
           <div class="label">{{ item.name }}</div>
         </li>
