@@ -15,7 +15,7 @@ var app = new Vue({
     objects: dataObjects,
     elements: dataElements,
     alignments: dataAlignments,
-    ingredients: ['animals', 'animals', 'plants', 'elements', 'alignments'],
+    ingredients: ['animals', 'animals', 'plants', 'elements'],
     combo: []
   },
   methods: {
