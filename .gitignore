@@ -1,9 +1,11 @@
 .DS_Store
+.htaccess
+.htpasswd
+.sass-cache
 
 *.codekit-cache
+*.php
 *.sql
-
-.sass-cache
 
 media/
 resources/
